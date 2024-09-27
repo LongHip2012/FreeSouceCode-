@@ -4362,7 +4362,7 @@ end
 
 
 
-_G.FastAttackDelay = 0.01
+_G.FastAttackDelay = 0.0001
 
     local Client = game.Players.LocalPlayer
     local STOP = require(Client.PlayerScripts.CombatFramework.Particle)
