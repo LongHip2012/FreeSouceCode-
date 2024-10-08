@@ -1,39 +1,39 @@
 getgenv().Setting = {
-    ["Team" HUB] = "Pirates",
-    ["Chat" HUB] = {},
-    ["Skip Race V4" HUB] = true,
-    ["Misc" HUB] = {
-        ["Enable Lock Bounty" HUB] = false,
-        ["Lock Bounty" HUB] = {0, 300000000},
-        ["Hide Health" HUB] = {4500,5000},
-        ["Lock Camera" HUB] = true,
-        ["Enable Cam Farm" HUB] = false,
-        ["White Screen" HUB] = false,
-        ["FPS Boost" HUB] = false,
-        ["Bypass TP" HUB] = true,
-        ["Random & Store Fruit" HUB] = true
+    ["Team"] = "Pirates",
+    ["Chat"] = {},
+    ["Skip Race V4"] = true,
+    ["Misc"] = {
+        ["Enable Lock Bounty"] = true,
+        ["Lock Bounty"] = {0, 300000000},
+        ["Hide Health"] = {4500,5000},
+        ["Lock Camera"] = false,
+        ["Enable Cam Farm"] = false,
+        ["White Screen"] = false,
+        ["FPS Boost"] = false,
+        ["Bypass TP"] = true,
+        ["Random & Store Fruit"] = true
     },
-    ["Item" HUB] = {
-        ["Melee" HUB] = {["Enable" HUB] = true,
-            ["Z" HUB] = {["Enable" HUB] = true, ["Hold Time" HUB] = 1},
-            ["X" HUB] = {["Enable" HUB] = true, ["Hold Time" HUB] = 0},
-            ["C" HUB] = {["Enable" HUB] = true, ["Hold Time" HUB] = 0}
+    ["Item"] = {
+        ["Melee"] = {["Enable"] = true,
+            ["Z"] = {["Enable"] = true, ["Hold Time"] = 1},
+            ["X"] = {["Enable"] = true, ["Hold Time"] = 0},
+            ["C"] = {["Enable"] = true, ["Hold Time"] = 0}
         },
-        ["Blox Fruit" HUB] = {["Enable" HUB] = false,
-            ["Z" HUB] = {["Enable" HUB] = true, ["Hold Time" HUB] = 1.5},
-            ["X" HUB] = {["Enable" HUB] = true, ["Hold Time" HUB] = 0},
-            ["C" HUB] = {["Enable" HUB] = true, ["Hold Time" HUB] = 0},
-            ["V" HUB] = {["Enable" HUB] = false, ["Hold Time" HUB] = 0},
-            ["F" HUB] = {["Enable" HUB] = true, ["Hold Time" HUB] = 0}
+        ["Blox Fruit"] = {["Enable"] = false,
+            ["Z"] = {["Enable"] = true, ["Hold Time"] = 1.5},
+            ["X"] = {["Enable"] = true, ["Hold Time"] = 0},
+            ["C"] = {["Enable"] = true, ["Hold Time"] = 0},
+            ["V"] = {["Enable"] = false, ["Hold Time"] = 0},
+            ["F"] = {["Enable"] = true, ["Hold Time"] = 0}
         },
-        ["Sword" HUB] = {["Enable" HUB] = true,
-            ["Z" HUB] = {["Enable" HUB] = true, ["Hold Time" HUB] = 0.3},
-            ["X" HUB] = {["Enable" HUB] = true, ["Hold Time" HUB] = 0.2}
+        ["Sword"] = {["Enable"] = true,
+            ["Z"] = {["Enable"] = true, ["Hold Time"] = 0.3},
+            ["X"] = {["Enable"] = true, ["Hold Time"] = 0.2}
         },
-        ["Gun" HUB] = {["Enable" HUB] = true,
-            ["Z" HUB] = {["Enable" HUB] = true, ["Hold Time" HUB] = 0.5},
-            ["X" HUB] = {["Enable" HUB] = true, ["Hold Time" HUB] = 0.3}
+        ["Gun"] = {["Enable"] = true,
+            ["Z"] = {["Enable"] = true, ["Hold Time"] = 0.5},
+            ["X"] = {["Enable"] = true, ["Hold Time"] = 0.3}
         }
     }
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghost-1198/AutoBounty/main/AutoBounty.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghost-1198/AutoBounty/main/AutoBounty.lua"))() 
